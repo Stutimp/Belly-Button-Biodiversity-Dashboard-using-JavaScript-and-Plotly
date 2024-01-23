@@ -20,8 +20,9 @@ This 'index.html' file has a HTML code which is designed for the above "Belly Bu
 - Here, ' <select id="selDataset" onchange="optionChanged(this.value)"></select> ' this html code helps create the dropdown menu  allowing users to select different Test Subject IDs. The onchange attribute is set to call the optionChanged JavaScript function, linking it to the interactive functionality of the dashboard.
 - Likewise, this '<div id="sample-metadata" class="panel-body"></div>' part of html code is also designed for dynamic content updates via JavaScript, which helps in  displaying demographic information related to the selected Test Subject ID in the above generated dashboard.
 - Finally we included the app.js script as a  reference file, which contains the core functionality of the dashboard, such as data fetching, processing, and event handling for the dropdown menu and visualizations.
-The link to the deployment is this : https://stutimp.github.io/belly-button-challenge/
-Reference:
+
+- The link to the deployment is this : https://stutimp.github.io/belly-button-challenge/
+- Reference:
 https://plotly.com/javascript/ (Plotly Documentation)
 
 Thank you !
