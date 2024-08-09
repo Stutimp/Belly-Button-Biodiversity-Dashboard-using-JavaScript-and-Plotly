@@ -1,6 +1,14 @@
-## belly-button-challenge
-## Module -14 challenge
+# Belly Button Biodiversity Dashboard using Javascript and Plotly
+
+## Project Overview
 In this assignment, I build an interactive dashboard to explore the  Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+
+## Dashboard Overview
+The dashboard allows users to:
+
+- View a horizontal bar chart displaying the top 10 OTUs found in an individual.
+- Explore a bubble chart that displays each sample.
+- See the demographic information for the selected individual.
 
 ### Overview on apps.js:
 First I used the D3 library to read in  samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
@@ -21,11 +29,32 @@ This 'index.html' file has a HTML code which is designed for the above "Belly Bu
 - Likewise, this '<div id="sample-metadata" class="panel-body"></div>' part of html code is also designed for dynamic content updates via JavaScript, which helps in  displaying demographic information related to the selected Test Subject ID in the above generated dashboard.
 - Finally we included the app.js script as a  reference file, which contains the core functionality of the dashboard, such as data fetching, processing, and event handling for the dropdown menu and visualizations.
 
-- The link to the deployment is this : https://stutimp.github.io/belly-button-challenge/
-- Reference:
-https://plotly.com/javascript/ (Plotly Documentation)
+# Deployment
+The app is successfully deployed on GitHub Pages. You can view the live site here. The link to the deployment is this : https://stutimp.github.io/belly-button-challenge/
+
+## How to Use the Dashboard
+
+- Select an individual from the dropdown menu.
+- The bar chart, bubble chart, and demographic information will update automatically.
+- Hover over the bar chart and bubble chart to view detailed information about each OTU.
+
+# Troubleshooting
+
+- If the charts do not load, ensure that the samples.json file is accessible via the provided URL.
+- Check the browser console for any error messages to help diagnose issues.
+
+### References:
+
+- https://plotly.com/javascript/ (Plotly Documentation)
+D3.js Documentation
+
+### Acknowledgments
+- Data Source: Belly Button Biodiversity Dataset
+- Module 14 Challenge from the Data Analytics Bootcamp
 
 Thank you !
+
+Author 
 
 Stuti Poudel
 
