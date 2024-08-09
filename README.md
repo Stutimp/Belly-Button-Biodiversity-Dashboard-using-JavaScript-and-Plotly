@@ -59,7 +59,7 @@ The code <div id="sample-metadata" class="panel-body"></div> is a placeholder fo
 The app.js script is included at the end of the HTML file as a reference, ensuring that the core functionality of the dashboard—such as data fetching, processing, and event handling for the dropdown menu and visualizations—executes properly when the page loads.
 
 # Deployment
-The app is successfully deployed on GitHub Pages. You can view the live site here. The link to the deployment is this : https://stutimp.github.io/belly-button-challenge/
+The app is successfully deployed on GitHub Pages. You can view the live site here. The link to the deployment is this : https://stutimp.github.io/Belly-Button-Biodiversity-Dashboard-using-JavaScript-and-Plotly/
 
 ## How to Use the Dashboard
 
